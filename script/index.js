@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function insertBio() {
-    fetch('about.json')
+    fetch('content/about.json')
             .then(response => response.json())
             .then(data => {
                 const nameElement = document.getElementById('name');
