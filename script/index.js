@@ -10,6 +10,6 @@ function insertBio() {
                 const bioElement = document.getElementById('bio');
 
                 nameElement.innerHTML = data.name;
-                bioElement.innerHTML = data.bio;
+                bioElement.innerHTML = data.bio.replace(/\n/g, '<br>');
             });
 }
