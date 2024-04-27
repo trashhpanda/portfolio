@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("x");
     insertBio();
 });
 
 function insertBio() {
-    fetch('/content/about.json')
+    fetch('about.json')
             .then(response => response.json())
             .then(data => {
                 const nameElement = document.getElementById('name');
