@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Exo-Thin;
+    src: url('./fonts/exo/Exo-Thin.otf');
+}
+
+@font-face {
+    font-family: Exo-ExtraLight;
+    src: url('./fonts/exo/Exo-ExtraLight.otf');
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #F4EFFA;
+    font-family: monospace;
+    background: #0f0f0f;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Exo-ExtraLight, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 100;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+h3 {
+    font-family: Exo-Thin, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 100;
+    margin: 0;
+    background: blue;
+}
+
+.content {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    background: pink;
+    width: 52%;
+    height: 80%;
+    min-width: 450px;
+}
+
+.about {
+    position: inherit;
+    padding: 50px;
+    text-align: justify;
+    background: yellow;
+    bottom: 300px;
+}
+
+.about p {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px;
+    color: #7FEFBD;
+    background: orange;
+}
+
+#box {
+    background: #532B88;
+    width: 90vw;
+    height: 100vh;
+    z-index: 0;
+    transform: skew(-30deg);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -60vw;
+}
